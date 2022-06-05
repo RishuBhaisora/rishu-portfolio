@@ -6,9 +6,10 @@ type ProjectsProps = {};
 
 const Projects: FC<ProjectsProps> = (props) => {
   return (
-    <div className=" flex flex-col  h-screen p-4 text-white">
+    <div className=" flex flex-col space-y-4  h-screen p-4 text-white">
       <H1>My Projects</H1>
-      <ul className="flex space-x-5">
+      <h1 className="text-xl font-bold underline">Project Name :</h1>
+      <ul className="flex space-y-2 list-disc pl-6 space-x-5">
         <ProjectRow
           projectName="Todo App( React-ts + Redux)"
           githubLink="https://github.com/RishuBhaisora/rishu-todo-ts-redux"
