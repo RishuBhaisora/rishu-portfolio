@@ -10,7 +10,7 @@ const About: FC<AboutProps> = (props) => {
         <H1>
           About Me
         </H1>
-        <ul className="pl-8  list-disc text-3xl space-y-5">
+        <ul className="pl-8  list-disc sm:text-3xl text-xl space-y-5">
           <li>Name : Rishabh</li>
           <li>DOB : 12/05/2002</li>
           <li>Education Qualification : 12th</li>

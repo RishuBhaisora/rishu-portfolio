@@ -15,15 +15,13 @@ const ProjectRow: FC<ProjectRowProps> = ({
 }) => {
   return (
     <div className=" flex flex-col justify-center items-center ">
-      
-        
-        <li className="sm:text-2xl  "> {projectName} </li>
-      
+      <li className="sm:text-3xl text-2xl "> {projectName} </li>
+
       <div className="flex flex-col self-start">
         <a
           href={githubLink}
           target="_blank"
-          className="text-indigo-500 hover:text-yellow-300 underline"
+          className="sm:text-2xl text-xl text-indigo-500 hover:text-yellow-300 underline"
         >
           click here for github repo link.
         </a>
