@@ -2,7 +2,7 @@ import { FC, memo, useState } from "react";
 import MenuItems from "./MenuItems";
 import { Link, Outlet } from "react-router-dom";
 import { HiMenuAlt1 } from "react-icons/hi";
-import { FcCancel } from "react-icons/fc";
+
 
 type HeaderProps = {};
 

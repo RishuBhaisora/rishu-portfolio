@@ -6,11 +6,11 @@ type AboutProps = {};
 const About: FC<AboutProps> = (props) => {
   return (
     <>
-      <div className="flex flex-col h-screen  items-center  justify-center text-white   p-4 ">
+      <div className="flex flex-col h-screen  text-white   p-4 py-10">
         <H1>
           About Me
         </H1>
-        <ul className=" p-8 list-disc text-3xl space-y-5">
+        <ul className="pl-8  list-disc text-3xl space-y-5">
           <li>Name : Rishabh</li>
           <li>DOB : 12/05/2002</li>
           <li>Education Qualification : 12th</li>
